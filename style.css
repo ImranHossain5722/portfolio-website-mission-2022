@@ -90,6 +90,7 @@ width: 40%;
 height:40%;
 }
 .mission-box{
+    width:33%;
     background-color:rgba(102, 190, 190, 0.199);
     padding: 10px;
     margin:15px;
@@ -98,12 +99,14 @@ height:40%;
 }
 
 .vision-box{
+    width: 33%;
     background-color:rgba(128, 136, 136, 0.199);
     padding: 10px;
     margin: 15px;
     border-radius: 15px;
 }
 .goal-box{
+    width:33%;
     background-color:rgba(243, 144, 144, 0.356);
     padding: 10px;
     margin:15px;
@@ -113,7 +116,7 @@ height:40%;
 /*Closed mission Section*/
 
 
-/*Developer sectionsCSS*/
+/*Full stack sections CSS*/
 .middle{
 
     background-image: url(images/shapes/shape-5.png);
@@ -128,17 +131,43 @@ height:40%;
     font-size: 50px;
     font-family:Tahoma;
 }
+.div-middle-content span{
+    color: orange;
+}
+.div-middle-img{
+
+    width:40%;
+    box-shadow: -20px 19px 80px -20px hsla(0, 0%, 43%, 0.438);
+    border-radius: 50px;
+
+}
 
 
+/*closed*/
 
-/*Know Global Section */
+
+/*MERN stuck development*/
 .div-bottom h1{
     font-size: 50px;
     font-family: Tahoma;
 }
 
+.div-bottom span{
+    color: orange;
+
+
+}
+.bottm-img{
+
+width:40%;
+box-shadow: -20px 0px 80px -20px hsla(0, 0%, 43%, 0.438);
+border-radius: 50px;
+
+}
+
 /*contact us*/
 .div-contact h1{
+padding-top: 50px;   
 text-align: center;
 font-size: 50px;
 font-weight:900;
@@ -151,7 +180,7 @@ font-family: Tahoma, sans-serif;
 #contat-img{
 width: 100%;
 box-shadow: 20px 10px 50px -20px hsla(0, 0%, 43%, 0.438);
-border-radius: 25px;
+border-radius:50px;
 
 }
 .div-form input{
