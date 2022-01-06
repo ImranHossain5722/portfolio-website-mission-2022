@@ -32,6 +32,15 @@ background-repeat: no-repeat;
 background-size: 120px;
 
 }
+
+.div-top-img{
+    width:60%;
+    height: 80%;
+    box-shadow: -15px 10px 50px 5px hsla(0, 1%, 82%, 0.726);
+    border-radius: 50px;
+    margin-top: 70px;
+
+}
 .div-top h1{
     font-size: 50px;
     font-family: Tahoma;
@@ -46,7 +55,7 @@ background-size: 120px;
 .div-contain P{
 
     font-size: 16px;
-    text-align: left;
+    text-align:justify;
     margin-bottom: 50px;
 }
 
@@ -61,7 +70,6 @@ border-radius:10px ;
 
 
 /* start mission section css*/
-  
 
 .my-mission-heading h1{
 text-align: center;    
